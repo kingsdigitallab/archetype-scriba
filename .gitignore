@@ -1,5 +1,7 @@
 **/local_settings.py
+**/logs
+scriba/static
 build
 digipal_text
 digipal
-
+*.pyc

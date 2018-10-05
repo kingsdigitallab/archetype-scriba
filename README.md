@@ -5,10 +5,10 @@ Archetype-based site for Scriba project
 
 * linux environment (ubuntu/debian)
 * postgresql 9+
-* conda
+* conda OR python 2.7 (with pip and virtualenv)
 * git
 
-# SCRIBA DEPLOYMENT LCL
+# Local deployment
 
 ## pull code
 
@@ -28,7 +28,8 @@ ln -s ../digipal_github/build
 
 ## virtual env
 ```
-conda create -n exon python=2.7 
+conda create -n scriba python=2.7 
+. activate scriba
 pip install --upgrade --ignore-installed pip
 pip install -r build/requirements.txt
 ```

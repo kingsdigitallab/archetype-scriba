@@ -1,7 +1,8 @@
-**/local_settings.py
-**/logs
+local_settings.py
+logs
 scriba/static
-build
-digipal_text
-digipal
-*.pyc
+/build
+django_cache
+/digipal_text
+/digipal
+*.py[cod]

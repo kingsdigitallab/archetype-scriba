@@ -6,3 +6,4 @@ django_cache
 /digipal_text
 /digipal
 *.py[cod]
+/scriba/search

@@ -88,7 +88,7 @@ TEXT_EDITOR_OPTIONS_CUSTOM = {
     },
     'show_highlights_in_preview': 1,
     'toolbars': {
-        'default': 'psclear undo redo pssave | btnPerson btnPlace btnDate btnOccupation btnReligion btnJuridicalStatus btnReligiousStatus btnReligion btnInfrastructure btnBuilding btnLand btnEconomicdata btnItem | code ',
+        'default': 'psclear undo redo pssave | btnPerson btnPlace btnDate btnOccupation btnReligion btnReligiousStatus | btnJuridicalStatus btnInfrastructure btnBuilding btnLand btnEconomicData btnItem | code ',
     },
     'panels': {
         'north': {

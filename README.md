@@ -43,8 +43,11 @@ create user app_scriba with password 'XXX';
 createdb -E 'utf-8' -T template0 -O app_scriba app_scriba_lcl
 ```
 
-## local_settings.py
-```# TODO```
+## settings
+
+local_settings.py SHOULD NOT be part of github repo, it is reserved for any sensitive information like database connections, address to image server, etc. and for anything specific to a particular instance of your site.
+
+settings_sriba.py contains your project customisations, anything which is not sensitive and is shared between all instances (local, development, staging, live) of the projects.
 
 ## create db tables
 `. activate scriba`
